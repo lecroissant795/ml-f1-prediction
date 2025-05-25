@@ -32,6 +32,35 @@ The system uses 2024 race data to train a predictive model, which is then applie
    - Measured model accuracy using Mean Absolute Error (MAE)
    - Implemented cross-validation for robust performance assessment
 
+### File Breakdown
+**model_d.py (Basic Model)**
+Purpose: Simplest version predicting Monaco Grand Prix results using only qualifying times.
+Approach:
+- Uses 2024 Monaco GP race data for training
+- Single feature: 2025 qualifying times
+- Basic Gradient Boosting model 
+
+**model_c.py**
+Purpose: Applies the same basic approach without model improvements.
+Key Difference:
+- Same simple model architecture
+- Includes new 2025 drivers in qualifying data
+
+**model_b.py**
+Purpose: Enhanced model using sector times but only for drivers who raced in 2024.
+Improvements:
+- Adds sector time features (Sector1, Sector2, Sector3)
+- Filters out new 2025 drivers
+- More sophisticated feature engineering
+
+**model_a.py (Full Model)**
+Purpose: Most sophisticated version including all drivers and enhanced features.
+Advanced Features:
+- Sector time analysis
+- Handles new 2025 drivers
+- More robust data preprocessing
+- Enhanced model parameters
+
 ### Machine Learning Approach
 - **Algorithm**: Gradient Boosting Regressor (ensemble method)
 - **Features**:
