@@ -120,6 +120,13 @@ ml-f1-prediction/
 └── requirements.txt   # Project dependencies
 ```
 
+##Possible Improvements for Better Prediction Model
+- More Historical Data
+- Driver Form and Momentum Model
+- Car Perfomance Model
+- Monaco Specific Features (Traffic Management, Sector Performances,...)
+- Race Conditions (Weather Probability Model, Safety Car Likelihood, Tire Strategy Optimisation)
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
