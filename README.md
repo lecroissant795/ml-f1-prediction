@@ -1,4 +1,4 @@
-# F1 Race Outcome Predictor 2025
+# F1 Race Outcome Prediction Model 2025
 
 ## Project Overview
 This project implements a machine learning system designed to predict Formula 1 race outcomes for the 2025 season. By leveraging historical F1 data from the 2024 season, the system trains predictive models to forecast lap times and race rankings based on various factors including qualifying performance, track conditions, and other relevant metrics.
