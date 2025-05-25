@@ -120,7 +120,7 @@ ml-f1-prediction/
 └── requirements.txt   # Project dependencies
 ```
 
-##Possible Improvements for Better Prediction Model
+## Possible Improvements for Better Prediction Model
 - More Historical Data
 - Driver Form and Momentum Model
 - Car Perfomance Model
